@@ -1,0 +1,1647 @@
+@media (min-width: 1600px) {
+    .main-content {
+        background-size: contain;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px
+    }
+
+}
+
+@media (min-width: 992px) {}
+
+@media (max-width: 1600px) {
+    .nav-img {
+        right: 15%
+    }
+
+    .nav-link {
+        font-size: 3.7em;
+        line-height: 85px;
+    }
+
+    .nav-social a i {
+        font-size: 3.7em;
+    }
+
+    /*about*/
+    .about {
+        padding-top: 70px;
+    }
+
+    .about .features .feature {
+        padding: 165px 225px 100px 60px;
+    }
+
+    /*roadmap*/
+    .roadmap .vector-shapes .wavy-particle {
+        right: -16%
+    }
+
+    /*faq-section*/
+    .faq-section .particle-black {
+        left: 0;
+    }
+
+    .faq-section .wavy-particle {
+        left: -17%;
+    }
+
+    .faq-section .particle-orange {
+        right: -5%;
+    }
+}
+
+@media (max-width: 1490px) {
+    body {
+        font-size: 22px;
+    }
+
+    .banner .banner-content {
+        padding-left: calc((100vw - 1110px) / 2);
+    }
+
+    .banner .section-title {
+        font-size: 4.5em;
+        line-height: 100px;
+    }
+
+    .roadmap,
+    .team,
+    .collection-nft {
+        padding-top: 190px;
+    }
+
+    .mobile-menu-open .nav-menu-wrapper {
+        padding: 10%;
+    }
+
+    .nav-link {
+        font-size: 3.4em;
+    }
+
+    .nav-img {
+        right: 10%;
+    }
+
+    .nav-social a i {
+        padding-top: 120px;
+    }
+
+    /*banner*/
+
+
+    /*about*/
+    .about .features {
+        padding-left: calc((100vw - 1110px) / 2);
+    }
+
+    .about .feature .feature-img {
+        right: -10px;
+        /* bottom: 6\0px; */
+    }
+
+    .about .features .feature {
+        padding: 195px 215px 100px 55px;
+    }
+
+    .about .features .feature::before {
+        top: 225px;
+    }
+
+    /*roadmap*/
+    .roadmap .vector-shapes .wavy-particle {
+        right: -10%
+    }
+
+    /*team section*/
+    .team .team-member .team-member-img {
+        min-height: 450px;
+    }
+
+    /*artist-section*/
+    .artist-wrapper {
+        padding-right: 47%;
+    }
+
+    /* faq question*/
+    .faq-section {
+        padding: 150px 0;
+    }
+
+    .faq-section .wavy-particle {
+        left: -10%;
+    }
+
+    .faq-section .particle-orange {
+        bottom: -10%;
+    }
+
+
+    .faq-accordian {
+        padding-top: 70px;
+    }
+
+    /*internal pages*/
+    .about-sec.why-digistic .feature-img img {
+        position: absolute;
+        right: 40%;
+    }
+
+    .about-sec.why-digistic .feature-img::after {
+        left: -35px;
+    }
+
+    .about-sec.faq-section .phase-art-img {
+        left: 0;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    header {
+        padding: 80px 0;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .banner-wrapper {
+        height: auto;
+        min-height: 960px;
+    }
+
+    .banner .banner-content {
+        top: 25%;
+        padding-left: calc((100vw - 920px) / 2);
+    }
+
+    .banner .section-title {
+        line-height: 80px;
+    }
+
+    .banner-floating-images {
+        top: 5%;
+        max-width: 800px;
+        left: calc(((100vw - 920px) / 2) + 300px);
+    }
+
+    .banner-img-wrapper .wavy-partical {
+        top: 11%;
+        left: -69%;
+    }
+
+    .roadmap,
+    .team,
+    .collection-nft {
+        padding-top: 150px;
+    }
+
+    .nav-img {
+        right: 8%;
+        top: 59%;
+    }
+
+    .nav-img img {
+        width: 35vw;
+    }
+
+    .nav-link {
+        font-size: 3.0em;
+        line-height: 65px;
+    }
+
+    .nav-social a i {
+        padding-top: 80px;
+    }
+
+    .nav-shapes .particle-black {
+        bottom: -8%;
+        left: 58%;
+    }
+
+    .nav-link:hover:before,
+    .nav-link.active:before {
+        width: 90px;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        padding-left: 95px;
+    }
+
+    /*banner*/
+
+
+    /*about*/
+    .about {
+        padding-top: 55px;
+    }
+
+
+    .about .features {
+        padding-left: calc((100vw - 930px) / 2);
+    }
+
+    .about .features .feature {
+        padding: 195px 230px 140px 90px;
+    }
+
+    .about .features .feature h4 {
+        margin-bottom: 0;
+    }
+
+    .about .features .feature p {
+        line-height: 16px;
+    }
+
+    /*collection*/
+    .collection .card {
+        border-radius: 50px;
+    }
+
+    /*roadmap section*/
+    .phase-img-box {
+        min-height: 460px;
+    }
+
+    .phase-list>li:nth-child(1) .phase-art-img {
+        width: 95%;
+        bottom: -30px;
+    }
+
+    .phase-list>li:nth-child(2) .phase-img-box .phase-art-img {
+        height: 120%;
+        bottom: -50px;
+        right: 100px;
+    }
+
+    .phase-list>li:nth-child(3) .phase-img-box .phase-art-img {
+        height: 121%;
+        bottom: -50px;
+        left: -50px;
+        top: auto;
+    }
+
+    .phase-list>li:nth-child(4) .phase-img-box .phase-art-img {
+        height: 90%;
+        left: -24px;
+        bottom: -10px;
+    }
+
+    .roadmap .vector-shapes .wavy-particle {
+        right: -3%;
+    }
+
+    /*team-section*/
+    .team-wrapper h2 {
+        padding-bottom: 100px;
+    }
+
+    .team .team-member .team-member-img {
+        min-height: 380px;
+        border-radius: 50px;
+    }
+
+    /*artist-section*/
+    .artist-wrapper .artist-img {
+        right: -16px;
+    }
+
+    .artist-wrapper img.artist-img {
+        width: 50%;
+    }
+
+    .artist-wrapper {
+        padding: 50px 65px 45px;
+        padding-right: 46%;
+    }
+
+    .artist-wrapper p {
+        line-height: 32px;
+    }
+
+    /*join-community section*/
+    .join-us-wrapper .section-title {
+        margin-bottom: 10px;
+        line-height: 75px;
+
+    }
+
+    .join-us-wrapper .join-us-content p {
+        margin-bottom: 10px;
+    }
+
+    .join-us-wrapper .btn {
+        max-width: 200px;
+        min-height: 60px;
+    }
+
+    .join-us-wrapper>span {
+        width: calc(100% - (190px * 3));
+        height: calc(100% - (190px * 3));
+    }
+
+    .join-us-wrapper:after {
+        width: calc(100% - (190px * 2));
+        height: calc(100% - (190px * 2));
+    }
+
+    .join-us-wrapper:before {
+        width: calc(100% - 190px);
+        height: calc(100% - 190px);
+
+    }
+
+    /* faq question*/
+    .faq-section {
+        padding: 100px 0;
+    }
+
+    .faq-section .wavy-particle {
+        left: -4%;
+    }
+
+    .faq-section .particle-orange {
+        right: 0;
+        bottom: 0;
+    }
+
+    .faq-accordian {
+        padding-top: 30px;
+    }
+
+    /*footer section*/
+    footer {
+        padding-bottom: 70px;
+    }
+
+    /*internal pages*/
+    .internal-pages header {
+        padding: 0;
+        min-height: 125px;
+    }
+
+    /* .page-banner {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    } */
+
+    .blogs .blog-img img {
+        border-radius: 20px;
+        width: -webkit-fill-available;
+    }
+
+    .right-sec {
+        border-radius: 20px;
+    }
+
+    .page-banner {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .blog-section {
+        margin-top: 100px;
+    }
+
+    .post-list {
+        gap: 10px;
+    }
+
+    .post-list .post-img img {
+        width: 65px;
+    }
+
+
+
+    .post-content .commentor-name {
+        font-size: 0.7em;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+        line-height: 70px;
+    }
+
+    .nav-menu-button {
+        height: 20px;
+        width: 25px;
+    }
+
+    /*banner*/
+    .banner .banner-content {
+        padding-left: calc((100vw - 690px) / 2);
+        top: 20%;
+    }
+
+    .banner-img-wrapper .wavy-partical {
+        top: 77%;
+        left: -9%;
+    }
+
+    .banner-img-wrapper .banner-2 {
+        bottom: 13%;
+        width: 18.5vw;
+    }
+
+    .banner-img-wrapper .banner-5 {
+        top: 45%;
+        left: 23%;
+        width: 9.5vw;
+    }
+
+    .banner-wrapper .banner-3 {
+        display: none;
+    }
+
+    .banner-img-wrapper .banner-4 {
+        display: none;
+    }
+
+    .banner .section-title {
+        line-height: 75px;
+    }
+
+    .banner .banner-content span.lined {
+        padding-left: 100px;
+    }
+
+    .banner .banner-content span.lined::before {
+        width: 90px
+    }
+
+    .banner .banner-wrapper {
+        /* max-width: 100%; */
+        /* height: 100%; */
+        min-height: 1400px;
+    }
+
+    .banner-floating-images {
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 125vw;
+        top: 20%;
+    }
+
+    .banner-img-wrapper {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .banner-img-wrapper .banner-1 {
+        /* width: 200px; */
+    }
+
+    /*about*/
+    .about {
+        /* padding-top: 300px; */
+    }
+
+    .about .features {
+        padding-left: calc((100vw - 690px) / 2);
+        padding-top: 25px;
+    }
+
+    .about p {
+        padding-right: 0px;
+    }
+
+    .about .graphic-imgs .particle-white {
+        top: 10%;
+        left: 60%;
+        width: 5%;
+    }
+
+    .about .graphic-imgs .particle-orange {
+        right: 30%;
+        width: 2%;
+    }
+
+    .about .graphic-imgs .spiral-arrow {
+        top: 104%;
+        left: 7%;
+        width: 8%;
+    }
+
+    .about .graphic-imgs .particle-black {
+        display: none;
+    }
+
+    .about .features .feature {
+        padding: 165px 220px 75px 60px;
+    }
+
+    .about .features .feature::before {
+        top: 200px;
+        border-radius: 90px;
+    }
+
+    .about .feature .feature-img {
+        width: 55%;
+        right: 15px;
+    }
+
+    .about .feature-2 .feature-img {
+        width: 45%
+    }
+
+    /*collection*/
+    .collection-nft h2 {
+        padding-bottom: 35px;
+    }
+
+    .collection-list {
+        margin-top: 24px;
+        white-space: nowrap;
+        animation: moveRighttoLeft 15s ease-in-out infinite;
+        position: relative;
+        display: inline-flex;
+        gap: 24px;
+    }
+
+    .collection-list>li {
+        width: 33vh;
+    }
+
+    /*roadmap section*/
+    .phase-img-box {
+        min-height: 320px;
+        border-radius: 40px;
+    }
+
+    .phase-list>li {
+        padding-top: 100px;
+    }
+
+    .section-title .spiral-arrow {
+        left: 180px;
+        top: calc(100% + 50px);
+        width: 9%;
+    }
+
+    .roadmap .vector-shapes .wavy-particle {
+        right: -3%;
+    }
+
+    .phase-list>li:nth-child(2) .phase-img-box .phase-art-img {
+        bottom: -34px;
+        right: 70px;
+    }
+
+    .phase-list>li:nth-child(3) .phase-img-box .phase-art-img {
+        left: -19px;
+        top: -31px;
+    }
+
+    .phase-list>li:nth-child(4) .phase-img-box .phase-art-img {
+        left: -21px;
+        bottom: -14px;
+    }
+
+    .phase-reverse .phase-content {
+        padding-left: 50px;
+    }
+
+    .particle-wrap img:last-child {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* team section*/
+    .team .team-member .team-member-info {
+        justify-content: center;
+    }
+
+    /*join-comunity section*/
+    .join-us-wrapper .section-title {
+        margin-bottom: 8px;
+        line-height: 60px;
+        font-size: 3.5em;
+    }
+
+    .join-us-wrapper .join-us-content p {
+        font-size: 0.9em;
+    }
+
+    .join-us-wrapper>span {
+        width: calc(100% - (130px * 3));
+        height: calc(100% - (130px * 3));
+    }
+
+    .join-us-wrapper:after {
+        width: calc(100% - (130px * 2));
+        height: calc(100% - (130px * 2));
+    }
+
+    .join-us-wrapper:before {
+        width: calc(100% - 130px);
+        height: calc(100% - 130px);
+
+    }
+
+    .join-us-wrapper .image-5 {
+        width: 6%
+    }
+
+    .join-us-wrapper .image-3 {
+        width: 9%;
+    }
+
+    .join-us-wrapper .image-2 {
+        width: 7%;
+    }
+
+    .join-us-wrapper .image-1,
+    .join-us-wrapper .image-4 {
+        left: 13%;
+        width: 9%;
+    }
+
+    .join-us-wrapper .wavy-partical {
+        width: 10%;
+    }
+
+    .join-us-wrapper .particle-white {
+        width: 6%;
+    }
+
+    .join-us-wrapper .particle-orange {
+        right: 4%;
+        width: 2%;
+    }
+
+    .join-us-wrapper .particle-black {
+        width: 3%;
+    }
+
+
+
+    /*artist-section*/
+    .artist-section {
+        padding-top: 30px;
+    }
+
+    .artist-wrapper {
+        padding: 50px 65px 400px;
+        border-radius: 40px;
+    }
+
+    .artist-wrapper p {
+        margin-bottom: 12px;
+        line-height: 25px;
+    }
+
+    .artist-wrapper p br {
+        display: none;
+
+    }
+
+    .artist-wrapper a {
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .artist-wrapper .artist-img {
+        right: 25%;
+    }
+
+    .artist-wrapper .particle-white {
+        top: 50%;
+        right: 65%;
+    }
+
+    .artist-wrapper .particle-black {
+        top: 68%;
+        right: 83%;
+    }
+
+    .artist-wrapper .particle-orange {
+        top: 50%;
+        right: 25%;
+    }
+
+    /* faq question*/
+    .faq-section {
+        padding: 100px 0;
+    }
+
+    .faq-section .section-title {
+        padding-left: 0px;
+    }
+
+    .faq-section .section-subtitle {
+        padding-left: 0px;
+    }
+
+    .faq-section .wavy-particle {
+        display: none;
+    }
+
+    .faq-section .particle-orange {
+        right: 0;
+        bottom: 97%;
+    }
+
+    .faq-section .particle-black {
+        left: 80%;
+        top: -10%
+    }
+
+    .faq-accordian {
+        padding-top: 0px;
+    }
+
+    .footer-cont p {
+        padding-bottom: 40px;
+    }
+
+    .footer-cont .social-icon {
+        min-height: 150px;
+    }
+
+    footer .social-icon img {
+        width: 40%;
+    }
+
+    /*internal pages*/
+    .contact-section .form-container .btn {
+        margin-top: 50px;
+    }
+
+    .page-banner {
+        margin-top: 120px;
+    }
+
+    /*about-section*/
+    .about-nft-content {
+        margin-top: 300px;
+    }
+
+    .about-nft-img .banner-img-1 {
+        top: -17%;
+        right: 34%;
+    }
+
+    .about-nft-img .banner-img-2 {
+        top: 10%;
+        right: -15%;
+    }
+
+    .about-nft-img .banner-img-3 {
+        top: 12%;
+        right: 60%;
+    }
+
+    .about-why .why-card h3 {
+        font-size: 40px;
+    }
+
+    .about-why .why-card h6 {
+        font-size: 16px;
+    }
+
+    .about-why .why-card p {
+        margin-right: 26px;
+    }
+
+    .about-sec.why-digistic .feature-img img {
+        top: -180px
+    }
+
+    .about-sec.why-digistic .feature-img::after {
+        left: 29px;
+        top: 45px;
+    }
+
+    .about-features {
+        margin-top: 370px;
+    }
+
+    .about-team-section {
+        padding-top: 120px;
+    }
+
+    .about-team-member img {
+        height: 300px;
+    }
+
+    .about-sec.faq-section .phase-art-img {
+        top: -9%;
+        left: 25%;
+        width: 50%;
+    }
+
+    .about-sec.faq-section .section-title {
+        margin-top: 300px;
+    }
+
+    /*contact-section*/
+    .contact-section {
+        padding: 90px 0;
+    }
+
+    .contact-info-list {
+        margin-top: 120px;
+    }
+
+    .contact-info-item {
+        margin-bottom: 50px;
+    }
+
+    .contact-info-list>div:last-child {
+        margin-bottom: 0;
+    }
+
+    /*blog-section*/
+    .blog-heading h2 {
+        line-height: 60px;
+    }
+
+    .post-list {
+        gap: 30px;
+        align-items: center;
+        font-size: 1.2em;
+    }
+
+    .post-comments {
+        margin-bottom: 30px;
+    }
+
+    /*privacy section*/
+    .privacy-section .btn {
+        min-height: 45px;
+        font-size: 0.8em;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 30px 0;
+        min-height: 100px;
+    }
+
+    .section-title {
+        font-size: 45px;
+        margin-bottom: 15px;
+        line-height: 40px;
+
+    }
+
+    .section-subtitle:after {
+        width: 90px;
+        right: 30%
+    }
+
+    .section-title br+br {
+        display: none;
+    }
+
+    .logo img {
+        width: 85px
+    }
+
+    .roadmap,
+    .team,
+    .collection-nft {
+        padding-top: 90px;
+    }
+
+    .nav-link {
+        font-size: 2.8em;
+        line-height: 65px;
+        padding: 0;
+    }
+
+    .nav-img {
+        display: none;
+    }
+
+    .mobile-menu-open .nav-menu-wrapper {
+        padding: 27% 25px;
+    }
+
+    .nav-shapes .particle-white {
+        position: absolute;
+        top: 8%;
+        left: 66%;
+        width: 15%;
+    }
+
+    .nav-shapes .particle-orange {
+        position: absolute;
+        top: 0%;
+        left: 85%;
+        width: 5%;
+    }
+
+    .nav-shapes .particle-black {
+        bottom: 24%;
+        left: 82%;
+        width: 4%;
+    }
+
+    .nav-link:hover:before,
+    .nav-link.active:before {
+        width: 30px;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        padding-left: 35px;
+    }
+
+    .nav-social a i {
+        padding-top: 50px;
+        margin-right: 30px;
+        font-size: 45px;
+    }
+
+    /*banner*/
+    .banner .section-title {
+        font-size: 3.75em;
+        line-height: 55px;
+    }
+
+    .banner .banner-wrapper {
+        min-height: 860px;
+    }
+
+    .banner .banner-content {
+        padding-left: 15px;
+        top: 20%;
+    }
+
+    .banner-floating-images {
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 175vw;
+        top: 21%;
+    }
+
+    .banner h5 {
+        font-size: 1.25em;
+    }
+
+    .banner .banner-content span.lined {
+        padding-left: 65px;
+    }
+
+    .banner .banner-content span.lined::before {
+        width: 60px
+    }
+
+    .banner-img-wrapper .wavy-partical {
+        top: 84%;
+        left: 10%;
+        width: 24%;
+    }
+
+    .banner-img-wrapper .particle-black {
+        bottom: 27%;
+        left: 26%;
+        width: 3%;
+    }
+
+    .banner-img-wrapper .banner-2 {
+        bottom: 2%;
+        width: 30vw;
+        right: 20%;
+    }
+
+    .banner-img-wrapper .particle-orange {
+        top: 26%;
+        right: 26%;
+        width: 3%;
+    }
+
+    .banner-img-wrapper .banner-5 {
+        top: 45%;
+        left: 21%;
+        width: 18vw;
+    }
+
+
+    /*about*/
+    .about {
+        padding-top: 50px;
+    }
+
+    .about .features {
+        padding-left: calc((100vw - 345px) / 2);
+        padding-top: 20px;
+    }
+
+    .about .graphic-imgs .spiral-arrow {
+        top: 100%;
+        left: 11%;
+        width: 10%;
+    }
+
+    .about .graphic-imgs .particle-white {
+        top: 11%;
+        left: 79%;
+        width: 8%;
+    }
+
+    .about .graphic-imgs .particle-orange {
+        right: 6%;
+        width: 4%;
+        top: -3%;
+    }
+
+    .about p {
+        line-height: 23px;
+    }
+
+    .about .features .feature {
+        padding: 67px 140px 75px 43px;
+    }
+
+    .about .features .feature::before {
+        top: 81px;
+        border-radius: 85px;
+    }
+
+    .about .feature .feature-img {
+        width: 50%;
+        right: -5px;
+        bottom: 42px;
+    }
+
+    .about .feature-2 .feature-img {
+        width: 40%
+    }
+
+    .about .features .feature h6 {
+        margin-bottom: 0px;
+        line-height: 19px;
+    }
+
+    .about .features .feature h4 {
+        font-size: 1.9em;
+        margin-bottom: 5px;
+    }
+
+    .about .features .feature p {
+        font-size: 0.75em;
+        line-height: 14px;
+    }
+
+    /*roadmap section*/
+    .roadmap .vector-shapes .particle-black {
+        top: -1%;
+        width: 4%;
+    }
+
+    .phase-list>li>.row {
+        flex-direction: column-reverse;
+    }
+
+    .phase-content {
+        padding: 50px 15px 0px
+    }
+
+    .phase-list>li {
+        padding-top: 75px;
+    }
+
+    .phase .phase-content h3 {
+        margin-bottom: 10px;
+    }
+
+    .phase .phase-content p {
+        font-size: 0.9em;
+    }
+
+    .phase-reverse .phase-content {
+        padding-left: 0;
+    }
+
+    .phase-img-box {
+        margin: 0 12px;
+    }
+
+    .particle-wrap {
+        left: 0;
+        top: -35px;
+        width: 70px;
+        height: 90px;
+    }
+
+    .phase-list>li:nth-child(2) .phase-img-box .particle-wrap,
+    .phase-list>li:nth-child(3) .phase-img-box .particle-wrap {
+        right: 0;
+        top: -35px;
+    }
+
+    .particle-wrap img:first-child {
+        /* left: 35%; */
+        width: 22px;
+        height: 22px;
+    }
+
+    .section-title .spiral-arrow {
+        display: none;
+    }
+
+    .roadmap .vector-shapes .wavy-particle {
+        right: -8%;
+        transform: rotate(180deg);
+        width: 23%;
+    }
+
+
+    /*community-section*/
+    .join-community {
+        overflow: hidden;
+    }
+
+    .join-us-wrapper .section-subtitle {
+        padding-left: 120px;
+        padding-right: 200px;
+        margin-bottom: 0;
+    }
+
+    .join-us-wrapper .btn {
+        max-width: 180px;
+        min-height: 50px;
+    }
+
+    .join-us-wrapper {
+        border: none;
+        margin: 120px auto;
+    }
+
+    .join-us-wrapper>span {
+        width: calc(100% - (30px * 3));
+        height: calc(100% - (30px * 3));
+    }
+
+    .join-us-wrapper:after {
+        width: 110%;
+        height: 110%;
+    }
+
+    .join-us-wrapper:before {
+        width: 150%;
+        height: 150%;
+
+    }
+
+    .join-us-wrapper .section-subtitle:after {
+        width: 70px;
+        right: 33%;
+    }
+
+    .join-us-wrapper .image-2,
+    .join-us-wrapper .image-5 {
+        display: none;
+    }
+
+    .join-us-wrapper .image-3 {
+        right: -2%;
+        top: 70%;
+        width: 12%;
+    }
+
+    .join-us-wrapper .image-4 {
+        left: 20%;
+        bottom: -6%;
+        width: 15%;
+    }
+
+    .join-us-wrapper .image-1 {
+        left: 10%;
+        top: -26%;
+        width: 17%;
+    }
+
+    .join-us-wrapper .particle-orange {
+        right: 7%;
+        top: -3%;
+        width: 5%;
+    }
+
+    .join-us-wrapper .particle-white {
+        top: 95%;
+        right: -2%;
+        width: 15%;
+    }
+
+    .join-us-wrapper .particle-black {
+        top: 118%;
+        left: 1%;
+        width: 6%;
+    }
+
+    .join-us-wrapper .wavy-partical {
+        top: 20%;
+        right: -13%;
+        width: 25%;
+    }
+
+
+    .join-us-wrapper .section-title {
+        margin-bottom: 25px;
+        line-height: 42px;
+        font-size: 2.8em;
+    }
+
+    .join-us-wrapper .join-us-content p {
+        display: none;
+    }
+
+    /* team-section*/
+    .team .container {
+        padding: 0;
+    }
+
+    .team-wrapper h2 {
+        padding-bottom: 45px;
+    }
+
+    .team .section-title br+br {
+        display: block;
+    }
+
+    .team-wrapper h2,
+    .team-wrapper h5 {
+        padding-left: 24px;
+    }
+
+    .team .team-member {
+        padding-top: 20px;
+    }
+
+    .team-wrapper .team-spiral-arrow {
+        top: 17%;
+        left: 48%;
+        width: 10%;
+    }
+
+    .team .team-member .team-member-img {
+        min-height: auto;
+    }
+
+    .team .team-member:hover .team-member-img img {
+        filter: blur(0px);
+    }
+
+
+    .team .team-member:hover .team-member-info {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+    .team .team-member .team-member-info {
+        padding: 25px;
+        position: static;
+        height: auto;
+    }
+
+    .team .team-content .owl-item.active.center .team-member .team-member-info {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .team .team-member>img {
+        transition: none;
+    }
+
+    .team .team-member:hover>img,
+    .team .team-content .owl-item.active.center .team-member>img {
+        visibility: visible;
+        opacity: 1;
+        width: 33%;
+        top: 0px;
+        left: 5px;
+    }
+
+
+
+
+    .team .team-member .team-member-info .member-designation {
+        font-size: 0.75em;
+        font-weight: 700;
+
+    }
+
+    .team .team-member .team-member-info h6 {
+        color: #182022;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    .team .team-member .team-member-info .member-info {
+        padding: 12px 0;
+        padding-right: 10px;
+        font-size: 0.75em;
+
+
+    }
+
+    .team .team-member .team-member-info .member-social-icon a {
+        color: #182022
+    }
+
+    .team-wrapper ul {
+        margin: 0
+    }
+
+    /*artist-section*/
+    .artist-wrapper {
+        padding: 45px 40px 400px;
+    }
+
+
+
+    .artist-wrapper img.artist-img {
+        width: 75%;
+    }
+
+    .artist-wrapper .artist-img {
+        right: 13%;
+    }
+
+    .artist-wrapper .particle-white {
+        top: 57%;
+        right: 68%;
+    }
+
+    .artist-wrapper .particle-black {
+        top: 71%;
+        right: 85%;
+    }
+
+    .artist-wrapper .particle-orange {
+        top: 55%;
+        right: 20%;
+    }
+
+    .artist-section {
+        padding-top: 90px;
+    }
+
+    /*faq section*/
+    .faq-wrapper .faq-accordian .faq-accordian-item .accordian-title {
+        font-size: 1.2em;
+    }
+
+    .faq-wrapper .faq-accordian .faq-accordian-item .accordian-content {
+        font-size: 1em;
+        padding-top: 15px;
+    }
+
+    .faq-wrapper .faq-accordian .faq-accordian-item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .faq-section .particle-orange {
+        right: 5%;
+        bottom: 97%;
+    }
+
+    .faq-section .particle-black {
+        left: 77%;
+        top: -6%;
+        width: 4%;
+    }
+
+    /*footer section*/
+
+
+    .footer-cont .social-icon {
+        margin: auto;
+        margin: 0 30px;
+    }
+
+    .footer-cont p {
+        padding-bottom: 35px;
+    }
+
+    .footer-cont .social-icon a.insta img {
+        width: 75px;
+        height: 75px;
+    }
+
+    footer .social-icon img {
+        width: 30%;
+    }
+
+    .copyright-para {
+        padding: 25px 50px 100px;
+        font-size: 12px;
+    }
+
+    /*internal-pages*/
+    .internal-pages header {
+        padding: 30px 0px;
+    }
+
+    .page-banner {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .page-banner .page-heading {
+        padding-bottom: 0;
+    }
+
+    .dropdown-menu.show {
+        width: 100%;
+    }
+
+    /*about-section*/
+    .about-nft-img .banner-img-1 {
+        right: 13%
+    }
+
+    .about-nft-img .banner-img-2 {
+        top: 16%;
+        right: -47%;
+    }
+
+    .about-nft-img .banner-img-2 img {
+        width: 42%;
+    }
+
+    .about-nft .section-subtitle {
+        padding-right: 0;
+    }
+
+    .about-why {
+        flex-wrap: wrap;
+    }
+
+    .about-why.why-list {
+        margin-top: 90px;
+    }
+
+    .about-why .why-card {
+        margin-right: 0;
+        margin-bottom: 70px;
+    }
+
+    .about-sec.why-digistic .feature-img img {
+        right: 17%;
+    }
+
+    .about-features .feature-content li span {
+        padding-left: 2px;
+    }
+
+    .about-sec.why-digistic .feature-img::after {
+        left: 0;
+        height: 240px;
+        width: 100%;
+    }
+
+    .about-team-section .team-member-list {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+
+    .about-team-section .team-member-list li {
+        margin-bottom: 50px;
+    }
+
+    .about-team-section .section-subtitle br {
+        display: none;
+
+    }
+
+    .about-team-section .section-subtitle {
+        margin-bottom: 50px;
+    }
+
+    .about-sec.faq-section .phase-art-img {
+        top: -13%;
+        left: 0%;
+        width: 100%;
+    }
+
+    .about-sec p.faq-info {
+        margin: 50px 0;
+    }
+
+    /*blog-section*/
+
+    .blog-heading h2 {
+        text-align: left;
+    }
+
+    .blog-heading a {
+        line-height: 45px;
+    }
+
+    .blog-heading h2.section-title br {
+        display: none;
+    }
+
+    .blog-content {
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .blog-pages {
+        padding-bottom: 35px;
+    }
+
+    .blog-comment-img img {
+        width: 100px;
+    }
+
+    .comment-para {
+        padding-left: 10px;
+        font-size: 0.75em;
+    }
+
+    .comment-para p {
+        margin-bottom: 5px;
+
+    }
+
+    .post-comments h4 {
+        padding: 40px 0;
+    }
+
+    /*contact section*/
+    .contact-section p {
+        margin-bottom: 36px;
+    }
+
+    .contact-section .input-container input,
+    .contact-section .input-container textarea {
+        min-height: 54px;
+    }
+
+    .contact-section.form-container .btn {
+        margin-top: 36px;
+        max-width: 100%;
+    }
+
+    .contact-info-item {
+        margin-bottom: 48px;
+    }
+
+    .modal.show .modal-dialog {
+        margin: 1em;
+    }
+
+
+    .modal-header {
+        padding: 40px 40px 0;
+    }
+
+    .modal-body {
+        padding: 0 40px 40px;
+    }
+
+    .modal .form-container .btn {
+        margin-top: 30px;
+    }
+
+    .modal .input-container {
+        margin-bottom: 24px;
+    }
+
+    .another-way {
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+
+    .modal-header .modal-title {
+        font-size: 2.0em;
+    }
+
+
+}
+
+
+@media screen and (max-width: 497px) {}
